@@ -1,0 +1,26 @@
+* {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 2rem;
+}
+
+details {
+  border: 1px solid #000;
+  border-radius: 4px;
+  margin-bottom: 2rem;
+  padding: 0.5em;
+}
+
+summary {
+  cursor: pointer;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.5em;
+}
